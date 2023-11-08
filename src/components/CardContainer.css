@@ -1,0 +1,23 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+    gap: 20px; /* Add space between cards */
+  }
+  
+  .add-timezone-button {
+    padding: 10px 20px;
+    margin: 20px; /* Spacing around the button */
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d5b82;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-timezone-button:hover {
+    background-color: #f24646;
+  }
+  
